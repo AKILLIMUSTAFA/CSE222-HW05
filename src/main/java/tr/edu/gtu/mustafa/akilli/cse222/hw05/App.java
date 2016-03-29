@@ -54,22 +54,9 @@ public class App
 
         System.out.println(classRec.isSubset());*/
 
-        LinkedListRec<Integer> linkedListRec = new LinkedListRec<Integer>();
-        boolean result = true;
+        GameTowerOfHanoi gameTowerOfHanoi = new GameTowerOfHanoi();
 
-        /* Add Element linkedListRec */
-        linkedListRec.add(6);
-        linkedListRec.add(3);
-        linkedListRec.add(7);
-        linkedListRec.add(8);
-        linkedListRec.add(6);
-        linkedListRec.add(2);
-        linkedListRec.add(6);
-
-        /* Remove 6 Element in linkedListRec */
-        linkedListRec.remove(6);
-
-        System.out.println(linkedListRec.toString());
-
+        System.out.println("**********************************");
+        gameTowerOfHanoi.TowerOfHanoiIterative(5,'K', 'L', 'M');
     }
 }

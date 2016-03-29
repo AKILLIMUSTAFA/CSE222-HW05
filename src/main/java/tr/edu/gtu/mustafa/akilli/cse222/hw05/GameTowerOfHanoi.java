@@ -16,44 +16,18 @@ import java.util.Stack;
  */
 public class GameTowerOfHanoi {
 
-    private Stack<Character> stackOfMoves; /* is Stack of moves */
+    private Stack<Integer> stackStartingPeg; /* is Stack of Starting Peg */
+    private Stack<Integer> stackDestinationPeg; /* is Stack of Destination Peg */
+    private Stack<Integer> stackAuxiliaryPeg; /* is Stack of Auxiliary Peg */
 
     /**
      * No Parameter Constructor
      */
-    public GameTowerOfHanoi(){}// end Four Parameter Constructor
-
-    /**
-     * Recursive Method for "moving" disks
-     *
-     * @param disksize is the number of disk
-     * @param src is the starting peg
-     * @param dst is the destination peg
-     * @param aux is the auxiliary peg
-     */
-    public void TowerOfHanoi(int disksize,String src, String dst, String aux){
-
-        if(disksize == 1){
-
-            System.out.println("*Move Disk 1 from peg " + src + " to peg " + dst);
-
-        }
-        else{
-
-            TowerOfHanoi(disksize-1,src,aux,dst);
-            System.out.println("Move Disk " + disksize + " from peg " + src + " to peg " + dst + "\n");
-            TowerOfHanoi(disksize-1,aux,dst,src);
-
-        }
-
-
-
-
-
-
-
-    }// end method TowerOfHanoi
-
+    public GameTowerOfHanoi(){
+        setStackAuxiliaryPeg();
+        setStackStartingPeg();
+        setStackDestinationPeg();
+    }// end No Parameter Constructor
 
     /**
      * Iterative Method for "moving" disks
@@ -63,99 +37,206 @@ public class GameTowerOfHanoi {
      * @param dst is the destination peg
      * @param aux is the auxiliary peg
      */
-    public void TowerOfHanoiIterative(int disksize,String src, String dst, String aux){
-        int index;
-        int count;
+    public void TowerOfHanoiIterative(int disksize, Character src, Character dst, Character aux){
 
-        /*for(index=1; index <= disksize ; ++index){
-            if(index == 1){
-                System.out.println("*Move Disk 1 from peg " + src + " to peg " + dst);
+        /* if disksize small then 3 */
+        if(disksize < 3)
+            System.out.println("DiskSize is to small");
+
+        /* if Poles Names are same characters*/
+        else if(src.compareTo(dst) == 0 || src.compareTo(aux) == 0 || aux.compareTo(dst) == 0)
+            System.out.println("Poles Names must be different characters");
+
+        /* if not exist any problem. */
+        else {
+            /* Find Loop Size */
+            int loopSize = ((int) Math.pow(2, disksize)) - 1;
+
+            /* fill in the stack of */
+            for(int index = disksize; index > 0 ; --index)
+                getStackStartingPeg().push((index));
+
+            /* if disksize is even number then switch the char aux and char dst */
+            if (disksize % 2 == 0) {
+                Character temp = dst;
+                dst = aux;
+                aux = temp;
             }
 
-            else{
-                System.out.println("Move Disk " + index + " from peg " + src + " to peg " + aux + "\n");
+            /* İterative Loop */
+            for (int index = 1; index <= loopSize; ++index) {
 
-                for(int inIndex=1; inIndex < disksize ; ++inIndex){
+                /* Check aux pole and dst pole. Make appropriate push */
+                if (index % 3 == 0) {checkAuxPegAndDstPeg(aux,dst);}
 
-                    if(inIndex == 1){
-                        System.out.println("*Move Disk 1 from peg " + dst + " to peg " + aux);
-                    }
+                /* Check dst pole and src pole. Make appropriate push  */
+                else if (index % 3 == 1) {checkDstPegAndSrcPeg(dst,src);}
 
-                    else {
-                        System.out.println("Move Disk " + index + " from peg " + aux + " to peg " + src + "\n");
-                    }
-                }
+                /* Check aux pole and src pole. Make appropriate push  */
+                else if (index % 3 == 2) { checkAuxPegAndSrcPeg(aux,src);}
             }
+        }
 
-        }*/
-
-        /*for(index=disksize; index >= 1 ; --index){
-
-            if(index == disksize){
-                System.out.println("*Move Disk 1 from peg " + src + " to peg " + dst);
-            }
-
-            else{
-                System.out.println("Move Disk " + (index) + " from peg " + src + " to peg " + aux + "\n");
-
-                for(int inIndex=1; inIndex < disksize ; ++inIndex){
-
-                    if(inIndex == 1){
-                        System.out.println("*Move Disk 1 from peg " + dst + " to peg " + aux);
-                    }
-
-                    else {
-                        System.out.println("Move Disk " + inIndex + " from peg " + aux + " to peg " + src + "\n");
-                    }
-                }
-            }
-
-        }*/
-
-        /*int limit= 2*disksize-1,count1=1,count2=1,count3=1;
-
-        for(int i=0; i<disksize; i++){
-
-
-            if(disksize == 1){
-
-                System.out.println("*Move Disk 1 from peg " + src + " to peg " + dst);
-
-            }
-            else{
-
-                if(count1>1){
-                    TowerOfHanoi(disksize-1,src,aux,dst);
-                    ++count1;
-                }
-
-
-                if(count2>1)
-                    System.out.println("Move Disk " + disksize + " from peg " + src + " to peg " + dst + "\n");
-
-                if(count3>1)
-                    TowerOfHanoi(disksize-1,aux,dst,src);
-
-            }
-
-        }*/
-
-    }
+    }// end method TowerOfHanoiIterative
 
     /**
-     * Get Stack Of Moves
+     * Get Stack Destination Peg
      *
-     * @return Stack of moves
+     * @return Stack of Destination Peg
      */
-    public Stack<Character> getStackOfMoves() {
-        return stackOfMoves;
+    private Stack<Integer> getStackDestinationPeg() {
+        return stackDestinationPeg;
     }
 
     /**
-     * Set Stack Of Moves
+     * Set Stack Destination Peg
      */
-    public void setStackOfMoves() {
-        this.stackOfMoves = new Stack<Character>();
+    private void setStackDestinationPeg() {
+        this.stackDestinationPeg = new Stack<Integer>();
     }
 
+    /**
+     * Get Stack Starting Peg
+     *
+     * @return Stack of Starting Peg
+     */
+    private Stack<Integer> getStackStartingPeg() {
+        return stackStartingPeg;
+    }
+
+    /**
+     * Set Stack Starting Peg
+     */
+    private void setStackStartingPeg() {
+        this.stackStartingPeg = new Stack<Integer>();
+    }
+
+    /**
+     * Get Stack Auxiliary Peg
+     *
+     * @return Stack of Auxiliary Peg
+     */
+    private Stack<Integer> getStackAuxiliaryPeg() {
+        return stackAuxiliaryPeg;
+    }
+
+    /**
+     * Set Stack Auxiliary Peg
+     */
+    private void setStackAuxiliaryPeg() {
+        this.stackAuxiliaryPeg = new Stack<Integer>();
+    }
+
+    /**
+     * Check Aux Peg And Dst Peg
+     *
+     * @param aux char
+     * @param dst char
+     */
+    private void checkAuxPegAndDstPeg(char aux, char dst){
+
+        /* if Aux Peg not empty and if Drc Peg empty */
+        if(getStackAuxiliaryPeg().size() != 0 && getStackDestinationPeg().size() == 0){
+            System.out.println("Move Disk " + getStackAuxiliaryPeg().peek() + " from peg " + aux + " to peg " + dst);
+            getStackDestinationPeg().push(getStackAuxiliaryPeg().pop());
+        }
+
+        /* if Aux Peg empty and if Drc Peg not empty */
+        else if(getStackAuxiliaryPeg().size() == 0 && getStackDestinationPeg().size() != 0){
+            System.out.println("Move Disk " + getStackDestinationPeg().peek() + " from peg " + dst + " to peg " + aux);
+            getStackAuxiliaryPeg().push(getStackDestinationPeg().pop());
+        }
+
+        /* if Aux Peg empty and if Drc Peg empty */
+        else if(getStackAuxiliaryPeg().size() == 0 && getStackAuxiliaryPeg().size() == 0){
+                        /* Do not anything */
+        }
+
+        /* if Aux Peg not empty and if Drc Peg not empty */
+        else{
+            if(getStackAuxiliaryPeg().peek() < getStackDestinationPeg().peek()){
+                System.out.println("Move Disk " + getStackAuxiliaryPeg().peek() + " from peg " + aux + " to peg " + dst);
+                getStackDestinationPeg().push(getStackAuxiliaryPeg().pop());
+            }
+            else{
+                System.out.println("Move Disk " + getStackDestinationPeg().peek() + " from peg " + dst + " to peg " + aux);
+                getStackAuxiliaryPeg().push(getStackDestinationPeg().pop());
+            }
+        }
+    }
+
+    /**
+     * Check Dst Peg And Src Peg
+     *
+     * @param dst char
+     * @param src char
+     */
+    private void checkDstPegAndSrcPeg(char dst, char src){
+
+        /* if Src Peg not empty and if Drc Peg empty */
+        if(getStackStartingPeg().size() != 0 && getStackDestinationPeg().size() == 0){
+            System.out.println("Move Disk " + getStackStartingPeg().peek() + " from peg " + src + " to peg " + dst);
+            getStackDestinationPeg().push(getStackStartingPeg().pop());
+        }
+
+        /* if Src Peg empty and if Drc Peg not empty */
+        else if(getStackStartingPeg().size() == 0 && getStackDestinationPeg().size() != 0){
+            System.out.println("Move Disk " + getStackDestinationPeg().peek() + " from peg " + dst + " to peg " + src);
+            getStackStartingPeg().push(getStackDestinationPeg().pop());
+        }
+
+        /* if Src Peg empty and if Drc Peg empty */
+        else if(getStackStartingPeg().size() == 0 && getStackStartingPeg().size() == 0){
+            /* Do not anything */
+        }
+
+        /* if Src Peg not empty and if Drc Peg not empty */
+        else{
+            if(getStackStartingPeg().peek() < getStackDestinationPeg().peek()){
+                System.out.println("Move Disk " + getStackStartingPeg().peek() + " from peg " + src + " to peg " + dst);
+                getStackDestinationPeg().push(getStackStartingPeg().pop());
+            }
+            else{
+                System.out.println("Move Disk " + getStackDestinationPeg().peek() + " from peg " + dst + " to peg " + src);
+                getStackStartingPeg().push(getStackDestinationPeg().pop());
+            }
+        }
+    }
+
+    /**
+     * Check Aux Peg And Src Peg
+     *
+     * @param aux char
+     * @param src char
+     */
+    private void checkAuxPegAndSrcPeg(char aux, char src){
+
+        if(getStackStartingPeg().size() != 0 && getStackAuxiliaryPeg().size() == 0){
+            System.out.println("Move Disk " + getStackStartingPeg().peek() + " from peg " + src + " to peg " + aux);
+            getStackAuxiliaryPeg().push(getStackStartingPeg().pop());
+        }
+
+        else if(getStackStartingPeg().size() == 0 && getStackAuxiliaryPeg().size() != 0){
+            System.out.println("Move Disk " + getStackAuxiliaryPeg().peek() + " from peg " + aux + " to peg " + src);
+            getStackStartingPeg().push(getStackAuxiliaryPeg().pop());
+        }
+
+        else if(getStackStartingPeg().size() == 0 && getStackStartingPeg().size() == 0){
+                        /* Do not anything */
+        }
+
+        else{
+            if(getStackStartingPeg().peek() < getStackAuxiliaryPeg().peek()){
+                System.out.println("Move Disk " + getStackStartingPeg().peek() + " from peg " + src + " to peg " + aux);
+                getStackAuxiliaryPeg().push(getStackStartingPeg().pop());
+            }
+            else{
+                System.out.println("Move Disk " + getStackAuxiliaryPeg().peek() + " from peg " + aux + " to peg " + src);
+                getStackStartingPeg().push(getStackAuxiliaryPeg().pop());
+            }
+        }
+
+    }
 }
+
+
