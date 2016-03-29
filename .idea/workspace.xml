@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7178d2ad-b0f5-4566-8ec1-62cabbb143aa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/App.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRec.java" afterPath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java" afterPath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java" afterPath="$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRecTest.java" afterPath="$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRecTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRec.class" afterPath="$PROJECT_DIR$/target/classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.class" afterPath="$PROJECT_DIR$/target/classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.class" afterPath="$PROJECT_DIR$/target/test-classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRecTest.class" afterPath="$PROJECT_DIR$/target/test-classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRecTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.java" afterPath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tr.edu.gtu.mustafa.akilli.cse222.hw05.ClassRecTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tr.edu.gtu.mustafa.akilli.cse222.hw05.ClassRecTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tr.edu.gtu.mustafa.akilli.cse222.hw05.LinkedListRecTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tr.edu.gtu.mustafa.akilli.cse222.hw05.LinkedListRecTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/tr.edu.gtu.mustafa.akilli.cse222.hw05.ClassRecTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/tr.edu.gtu.mustafa.akilli.cse222.hw05.ClassRecTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/tr.edu.gtu.mustafa.akilli.cse222.hw05.LinkedListRecTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/tr.edu.gtu.mustafa.akilli.cse222.hw05.LinkedListRecTest.txt" />
     </list>
     <ignored path="CSE222-HW05.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +39,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LinkedListRec.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestScenario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/TestScenario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1466#1475#0" expanded="true" />
+                <element signature="e#2537#2546#0" expanded="true" />
+                <element signature="e#2600#2609#0" expanded="true" />
+                <element signature="e#2671#2680#0" expanded="true" />
+                <element signature="e#2735#2744#0" expanded="true" />
+                <element signature="e#2797#2806#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameTowerOfHanoi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46370023">
+              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+              <folding>
+                <element signature="docComment;method#GameTowerOfHanoi#0;class#GameTowerOfHanoi#0" expanded="false" />
+                <element signature="method#GameTowerOfHanoi#0;class#GameTowerOfHanoi#0" expanded="false" />
+                <element signature="docComment;method#TowerOfHanoiIterative#0;class#GameTowerOfHanoi#0" expanded="false" />
+                <element signature="docComment;method#getStackDestinationPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+                <element signature="docComment;method#setStackDestinationPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+                <element signature="docComment;method#getStackStartingPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+                <element signature="docComment;method#setStackStartingPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+                <element signature="docComment;method#getStackAuxiliaryPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+                <element signature="docComment;method#setStackAuxiliaryPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+                <element signature="docComment;method#checkAuxPegAndDstPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+                <element signature="docComment;method#checkDstPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+                <element signature="docComment;method#checkAuxPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListRec.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.025761124">
-              <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="class#Node#0;class#LinkedListRec#0" expanded="false" />
                 <element signature="docComment;method#size#0;class#LinkedListRec#0" expanded="false" />
@@ -48,11 +93,36 @@
                 <element signature="docComment;method#toString#0;class#LinkedListRec#0" expanded="false" />
                 <element signature="method#toString#0;class#LinkedListRec#0" expanded="false" />
                 <element signature="docComment;method#toString#1;class#LinkedListRec#0" expanded="false" />
+                <element signature="docComment;method#replace#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="method#replace#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="docComment;method#replace#1;class#LinkedListRec#0" expanded="false" />
                 <element signature="docComment;method#add#0;class#LinkedListRec#0" expanded="false" />
                 <element signature="method#add#0;class#LinkedListRec#0" expanded="false" />
                 <element signature="docComment;method#add#1;class#LinkedListRec#0" expanded="false" />
                 <element signature="method#add#1;class#LinkedListRec#0" expanded="false" />
+                <element signature="docComment;method#remove#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="method#remove#0;class#LinkedListRec#0" expanded="false" />
                 <element signature="docComment;method#remove#1;class#LinkedListRec#0" expanded="false" />
+                <element signature="method#remove#1;class#LinkedListRec#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassRecTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+              <folding>
+                <element signature="method#setUp#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="method#tearDown#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="method#testSetList1#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="method#testSetList2#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="method#testIntersectionOfLists#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="method#testUnionOfLists#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="method#testIsSubset#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="method#testHowManyContain#0;class#ClassRecTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -84,14 +154,14 @@
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/TowerOfHanoiIterative.java" />
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/EmptyListException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.java" />
         <option value="$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/TestScenario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRec.java" />
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java" />
         <option value="$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRecTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.java" />
       </list>
     </option>
   </component>
@@ -245,6 +315,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -592,12 +664,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29763246" sideWeight="0.5021436" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24169347" sideWeight="0.49154454" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3664036" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20578778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20150054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973205" sideWeight="0.4960541" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -607,7 +680,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.50845546" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -647,7 +719,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="32" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -680,7 +752,6 @@
             <element signature="docComment;method#GameTowerOfHanoi#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="method#GameTowerOfHanoi#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#TowerOfHanoiIterative#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#TowerOfHanoiIterative#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#getStackDestinationPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#setStackDestinationPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#getStackStartingPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
@@ -688,11 +759,8 @@
             <element signature="docComment;method#getStackAuxiliaryPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#setStackAuxiliaryPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#checkAuxPegAndDstPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#checkAuxPegAndDstPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#checkDstPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#checkDstPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#checkAuxPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#checkAuxPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -837,7 +905,6 @@
             <element signature="docComment;method#GameTowerOfHanoi#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="method#GameTowerOfHanoi#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#TowerOfHanoiIterative#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#TowerOfHanoiIterative#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#getStackDestinationPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#setStackDestinationPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#getStackStartingPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
@@ -845,11 +912,8 @@
             <element signature="docComment;method#getStackAuxiliaryPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#setStackAuxiliaryPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#checkAuxPegAndDstPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#checkAuxPegAndDstPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#checkDstPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#checkDstPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
             <element signature="docComment;method#checkAuxPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#checkAuxPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -976,10 +1040,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49905482">
-          <caret line="281" column="46" selection-start-line="281" selection-start-column="46" selection-end-line="281" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.77488154">
+          <caret line="312" column="54" selection-start-line="312" selection-start-column="11" selection-end-line="312" selection-end-column="54" />
           <folding>
             <element signature="method#ClassRec#0;class#ClassRec#0" expanded="false" />
+            <element signature="docComment;method#getList1#0;class#ClassRec#0" expanded="false" />
+            <element signature="docComment;method#setList1#0;class#ClassRec#0" expanded="false" />
+            <element signature="docComment;method#setList1#1;class#ClassRec#0" expanded="false" />
+            <element signature="docComment;method#getList2#0;class#ClassRec#0" expanded="false" />
+            <element signature="docComment;method#setList2#0;class#ClassRec#0" expanded="false" />
+            <element signature="docComment;method#setList2#1;class#ClassRec#0" expanded="false" />
+            <element signature="docComment;method#sortList#0;class#ClassRec#0" expanded="false" />
+            <element signature="method#sortList#0;class#ClassRec#0" expanded="false" />
             <element signature="docComment;method#list1ToString#0;class#ClassRec#0" expanded="false" />
             <element signature="method#list1ToString#0;class#ClassRec#0" expanded="false" />
             <element signature="docComment;method#list2ToString#0;class#ClassRec#0" expanded="false" />
@@ -989,7 +1061,12 @@
             <element signature="docComment;method#intersectionOfLists#1;class#ClassRec#0" expanded="false" />
             <element signature="method#intersectionOfLists#1;class#ClassRec#0" expanded="false" />
             <element signature="docComment;method#unionOfLists#0;class#ClassRec#0" expanded="false" />
+            <element signature="method#unionOfLists#0;class#ClassRec#0" expanded="false" />
+            <element signature="docComment;method#unionOfLists#1;class#ClassRec#0" expanded="false" />
+            <element signature="method#unionOfLists#1;class#ClassRec#0" expanded="false" />
             <element signature="docComment;method#isSubset#0;class#ClassRec#0" expanded="false" />
+            <element signature="method#isSubset#0;class#ClassRec#0" expanded="false" />
+            <element signature="docComment;method#isSubset#1;class#ClassRec#0" expanded="false" />
             <element signature="method#isSubset#1;class#ClassRec#0" expanded="false" />
             <element signature="docComment;method#howManyContain#0;class#ClassRec#0" expanded="false" />
             <element signature="method#howManyContain#0;class#ClassRec#0" expanded="false" />
@@ -999,56 +1076,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRecTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-1.6076924">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="method#setUp#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="method#tearDown#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="method#testSetList1#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="method#testSetList2#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="method#testIntersectionOfLists#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="method#testIsSubset#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="method#testHowManyContain#0;class#ClassRecTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25761124">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="docComment;method#GameTowerOfHanoi#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#GameTowerOfHanoi#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="docComment;method#TowerOfHanoiIterative#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#TowerOfHanoiIterative#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="docComment;method#getStackDestinationPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="docComment;method#setStackDestinationPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="docComment;method#getStackStartingPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="docComment;method#setStackStartingPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="docComment;method#getStackAuxiliaryPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="docComment;method#setStackAuxiliaryPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="docComment;method#checkAuxPegAndDstPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#checkAuxPegAndDstPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="docComment;method#checkDstPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#checkDstPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="docComment;method#checkAuxPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-            <element signature="method#checkAuxPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/TestScenario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3091335">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1064,8 +1100,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025761124">
-          <caret line="138" column="6" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="class#Node#0;class#LinkedListRec#0" expanded="false" />
             <element signature="docComment;method#size#0;class#LinkedListRec#0" expanded="false" />
@@ -1074,11 +1110,55 @@
             <element signature="docComment;method#toString#0;class#LinkedListRec#0" expanded="false" />
             <element signature="method#toString#0;class#LinkedListRec#0" expanded="false" />
             <element signature="docComment;method#toString#1;class#LinkedListRec#0" expanded="false" />
+            <element signature="docComment;method#replace#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="method#replace#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="docComment;method#replace#1;class#LinkedListRec#0" expanded="false" />
             <element signature="docComment;method#add#0;class#LinkedListRec#0" expanded="false" />
             <element signature="method#add#0;class#LinkedListRec#0" expanded="false" />
             <element signature="docComment;method#add#1;class#LinkedListRec#0" expanded="false" />
             <element signature="method#add#1;class#LinkedListRec#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="method#remove#0;class#LinkedListRec#0" expanded="false" />
             <element signature="docComment;method#remove#1;class#LinkedListRec#0" expanded="false" />
+            <element signature="method#remove#1;class#LinkedListRec#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="method#setUp#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="method#tearDown#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="method#testSetList1#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="method#testSetList2#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="method#testIntersectionOfLists#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="method#testUnionOfLists#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="method#testIsSubset#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="method#testHowManyContain#0;class#ClassRecTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46370023">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding>
+            <element signature="docComment;method#GameTowerOfHanoi#0;class#GameTowerOfHanoi#0" expanded="false" />
+            <element signature="method#GameTowerOfHanoi#0;class#GameTowerOfHanoi#0" expanded="false" />
+            <element signature="docComment;method#TowerOfHanoiIterative#0;class#GameTowerOfHanoi#0" expanded="false" />
+            <element signature="docComment;method#getStackDestinationPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+            <element signature="docComment;method#setStackDestinationPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+            <element signature="docComment;method#getStackStartingPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+            <element signature="docComment;method#setStackStartingPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+            <element signature="docComment;method#getStackAuxiliaryPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+            <element signature="docComment;method#setStackAuxiliaryPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+            <element signature="docComment;method#checkAuxPegAndDstPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+            <element signature="docComment;method#checkDstPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
+            <element signature="docComment;method#checkAuxPegAndSrcPeg#0;class#GameTowerOfHanoi#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1086,8 +1166,8 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
-    <option value="-Dtest=LinkedListRecTest test" />
     <option value="-Dtest=ClassRecTest test" />
+    <option value="-Dtest=LinkedListRecTest test" />
     <option value="-Dtest=SpecListTest test" />
   </component>
 </project>

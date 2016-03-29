@@ -52,9 +52,16 @@ public class GameTowerOfHanoi {
             /* Find Loop Size */
             int loopSize = ((int) Math.pow(2, disksize)) - 1;
 
+            /* Clear Stack */
+            getStackDestinationPeg().clear();
+            getStackStartingPeg().clear();
+            getStackAuxiliaryPeg().clear();
+
             /* fill in the stack of */
             for(int index = disksize; index > 0 ; --index)
                 getStackStartingPeg().push((index));
+
+
 
             /* if disksize is even number then switch the char aux and char dst */
             if (disksize % 2 == 0) {

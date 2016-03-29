@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tr.edu.gtu.mustafa.akilli.cse222.hw05.LinkedListRecTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec <<< FAILURE!
-testRemove(tr.edu.gtu.mustafa.akilli.cse222.hw05.LinkedListRecTest)  Time elapsed: 0.03 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: expected:<false> but was:<true>
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.failNotEquals(Assert.java:282)
-	at junit.framework.Assert.assertEquals(Assert.java:64)
-	at junit.framework.Assert.assertEquals(Assert.java:149)
-	at junit.framework.Assert.assertEquals(Assert.java:155)
-	at tr.edu.gtu.mustafa.akilli.cse222.hw05.LinkedListRecTest.testRemove(LinkedListRecTest.java:38)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
