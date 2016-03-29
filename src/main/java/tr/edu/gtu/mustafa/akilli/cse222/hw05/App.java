@@ -1,5 +1,8 @@
 package tr.edu.gtu.mustafa.akilli.cse222.hw05;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * Hello world!
  *
@@ -8,27 +11,66 @@ public class App
 {
     public static void main( String[] args )
     {
-        LinkedListRec<Integer> linkedListRec = new LinkedListRec<Integer>();
+        /*List<Integer> linkedListRec = new LinkedList<Integer>();
+        List<Integer> linkedListRec2 = new LinkedList<Integer>();
+
 
         linkedListRec.add(1);
         linkedListRec.add(2);
         linkedListRec.add(3);
-        linkedListRec.add(4);
-        linkedListRec.add(5);
-        linkedListRec.add(6);
-        linkedListRec.add(7);
-        linkedListRec.add(8);
-        linkedListRec.add(7);
+        linkedListRec.add(44);
+        linkedListRec.add(0);
+        linkedListRec.add(1);
 
-        System.out.print(linkedListRec.toString());
 
-        System.out.print("**********************************");
+        linkedListRec2.add(1);
+        linkedListRec2.add(1);
+        linkedListRec2.add(1);
 
-        linkedListRec.remove(7);
 
-        System.out.print(linkedListRec.toString());
+        ClassRec<Integer> classRec = new ClassRec<Integer>();
 
-        System.out.print("**********************************");
+        classRec.setList1(linkedListRec);
+        classRec.setList2(linkedListRec2);
+
+        List<Integer> gg = classRec.intersectionOfLists();
+
+        System.out.println("**********************************");
+
+        for(int i=0; i<gg.size() ;++i)
+            System.out.print(gg.get(i) + ",");
+
+
+        System.out.println("**********************************");
+
+        List<Integer> ff = classRec.unionOfLists();
+
+        for(int i=0; i<ff.size() ;++i)
+            System.out.print(ff.get(i) + ",");
+
+
+        System.out.println("**********************************");
+
+
+        System.out.println(classRec.isSubset());*/
+
+        List<Integer> linkedListRec = new LinkedList<Integer>();
+        ClassRec<Integer> classRec = new ClassRec<Integer>();
+
+        /* Add Element linkedListRec */
+        linkedListRec.add(1);
+        linkedListRec.add(2);
+        linkedListRec.add(3);
+        linkedListRec.add(44);
+        linkedListRec.add(0);
+        linkedListRec.add(1);
+
+        System.out.println("**********************************");
+        System.out.println(classRec.howManyContain(linkedListRec, 1));
+        System.out.println("**********************************");
+        System.out.println(classRec.howManyContain(linkedListRec, 2));
+
+        /* Control Point */
 
     }
 }
