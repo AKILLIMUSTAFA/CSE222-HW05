@@ -160,8 +160,9 @@ public class ClassRec<E extends Comparable<E>>{
      * Recursive method for Intersection Of Lists
      *
      * @return intersection set as a list of list1 and list 2
+     * @throws EmptyListException if list1 or list2 are empty
      */
-    public List<E> intersectionOfLists(){
+    public List<E> intersectionOfLists() throws EmptyListException{
         if(getList1().size() == 0 || getList2().size() == 0)
             throw new EmptyListException();
 
@@ -216,8 +217,9 @@ public class ClassRec<E extends Comparable<E>>{
      * Union Of Lists
      *
      * @return union set as a list of list1 and list 2
+     * @throws EmptyListException if list1 or list2 are empty
      */
-    public List<E> unionOfLists(){
+    public List<E> unionOfLists() throws EmptyListException{
 
         if(getList1().size() == 0 && getList2().size() == 0)
             throw new EmptyListException();
@@ -262,8 +264,9 @@ public class ClassRec<E extends Comparable<E>>{
      * is list2 subset of list1
      *
      * @return true if list2 is subset of list1
+     * @throws EmptyListException if list1 or list2 are empty
      */
-    public boolean isSubset(){
+    public boolean isSubset() throws EmptyListException{
 
         if(getList1().size() == 0 && getList2().size() == 0)
             throw new EmptyListException();

@@ -144,9 +144,12 @@ public class LinkedListRec<E> {
     public boolean remove(E outData) {
         if (head == null) {
             return false;
-        } else if (head.data.equals(outData)) {
+        }
+
+        while(head.data.equals(outData)) {
             head = head.next;
         }
+
         return remove(head.next, head, outData);
     }
 
@@ -167,7 +170,7 @@ public class LinkedListRec<E> {
 
         else if (head.data.equals(outData)) { // 2nd base case.
             pred.next = head.next; // Remove head.
-            remove(head.next, head, outData);
+            remove(head.next, pred, outData);
             return true;
         }
 
