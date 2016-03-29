@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7178d2ad-b0f5-4566-8ec1-62cabbb143aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/EmptyListException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRecTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/App.class" afterPath="$PROJECT_DIR$/target/classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.class" afterPath="$PROJECT_DIR$/target/classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.class" afterPath="$PROJECT_DIR$/target/classes/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/App.java" afterPath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java" afterPath="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tr.edu.gtu.mustafa.akilli.cse222.hw05.ClassRecTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tr.edu.gtu.mustafa.akilli.cse222.hw05.ClassRecTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/tr.edu.gtu.mustafa.akilli.cse222.hw05.ClassRecTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/tr.edu.gtu.mustafa.akilli.cse222.hw05.ClassRecTest.txt" />
     </list>
     <ignored path="CSE222-HW05.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,19 +41,99 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+              <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1418#1427#0" expanded="true" />
+                <element signature="e#1368#1377#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassRec.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedListRec.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+              <folding>
+                <element signature="class#Node#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="docComment;method#size#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="method#size#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="docComment;method#size#1;class#LinkedListRec#0" expanded="false" />
+                <element signature="docComment;method#toString#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="method#toString#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="docComment;method#toString#1;class#LinkedListRec#0" expanded="false" />
+                <element signature="e#2073#2074#0" expanded="true" />
+                <element signature="e#2110#2111#0" expanded="true" />
+                <element signature="docComment;method#replace#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="method#replace#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="docComment;method#replace#1;class#LinkedListRec#0" expanded="false" />
+                <element signature="docComment;method#add#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="method#add#0;class#LinkedListRec#0" expanded="false" />
+                <element signature="docComment;method#add#1;class#LinkedListRec#0" expanded="false" />
+                <element signature="method#add#1;class#LinkedListRec#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListRecTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRecTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.021077283">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="e#297#306#0" expanded="true" />
+                <element signature="e#382#391#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassRecTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="205" column="8" selection-start-line="205" selection-start-column="8" selection-end-line="209" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setUp#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="method#tearDown#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="method#testSetList1#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="e#463#472#0" expanded="true" />
+                <element signature="e#534#543#0" expanded="true" />
+                <element signature="e#596#605#0" expanded="true" />
+                <element signature="method#testSetList2#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="e#1622#1631#0" expanded="true" />
+                <element signature="e#1693#1702#0" expanded="true" />
+                <element signature="e#1755#1764#0" expanded="true" />
+                <element signature="method#testIntersectionOfLists#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="e#2793#2802#0" expanded="true" />
+                <element signature="e#2859#2868#0" expanded="true" />
+                <element signature="e#2929#2938#0" expanded="true" />
+                <element signature="e#3001#3010#0" expanded="true" />
+                <element signature="e#3097#3106#0" expanded="true" />
+                <element signature="e#4955#4964#0" expanded="true" />
+                <element signature="e#5021#5030#0" expanded="true" />
+                <element signature="e#5091#5100#0" expanded="true" />
+                <element signature="e#5163#5172#0" expanded="true" />
+                <element signature="e#5258#5267#0" expanded="true" />
+                <element signature="method#testIsSubset#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="e#7392#7401#0" expanded="true" />
+                <element signature="e#7460#7469#0" expanded="true" />
+                <element signature="e#7531#7540#0" expanded="true" />
+                <element signature="e#7626#7635#0" expanded="true" />
+                <element signature="method#testHowManyContain#0;class#ClassRecTest#0" expanded="false" />
+                <element signature="e#8766#8775#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassRec.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.15925059">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
               <folding>
                 <element signature="docComment;method#getList1#0;class#ClassRec#0" expanded="false" />
@@ -86,61 +167,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassRecTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="297" column="27" selection-start-line="297" selection-start-column="27" selection-end-line="297" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#setUp#0;class#ClassRecTest#0" expanded="false" />
-                <element signature="method#tearDown#0;class#ClassRecTest#0" expanded="false" />
-                <element signature="method#testSetList1#0;class#ClassRecTest#0" expanded="false" />
-                <element signature="e#463#472#0" expanded="true" />
-                <element signature="e#534#543#0" expanded="true" />
-                <element signature="e#596#605#0" expanded="true" />
-                <element signature="method#testSetList2#0;class#ClassRecTest#0" expanded="false" />
-                <element signature="e#1622#1631#0" expanded="true" />
-                <element signature="e#1693#1702#0" expanded="true" />
-                <element signature="e#1755#1764#0" expanded="true" />
-                <element signature="method#testIntersectionOfLists#0;class#ClassRecTest#0" expanded="false" />
-                <element signature="e#2793#2802#0" expanded="true" />
-                <element signature="e#2859#2868#0" expanded="true" />
-                <element signature="e#2929#2938#0" expanded="true" />
-                <element signature="e#3001#3010#0" expanded="true" />
-                <element signature="e#3097#3106#0" expanded="true" />
-                <element signature="method#testUnionOfLists#0;class#ClassRecTest#0" expanded="false" />
-                <element signature="e#4955#4964#0" expanded="true" />
-                <element signature="e#5021#5030#0" expanded="true" />
-                <element signature="e#5091#5100#0" expanded="true" />
-                <element signature="e#5163#5172#0" expanded="true" />
-                <element signature="e#5258#5267#0" expanded="true" />
-                <element signature="method#testIsSubset#0;class#ClassRecTest#0" expanded="false" />
-                <element signature="e#7392#7401#0" expanded="true" />
-                <element signature="e#7460#7469#0" expanded="true" />
-                <element signature="e#7531#7540#0" expanded="true" />
-                <element signature="e#7626#7635#0" expanded="true" />
-                <element signature="e#8766#8775#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1232" column="22" selection-start-line="1232" selection-start-column="22" selection-end-line="1232" selection-end-column="22" />
-              <folding>
-                <element signature="e#46394#46395#0" expanded="true" />
-                <element signature="e#46458#46459#0" expanded="true" />
-                <element signature="e#47036#47037#0" expanded="true" />
-                <element signature="e#47092#47093#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -166,12 +192,13 @@
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/Peg.java" />
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/TowerOfHanoiIterative.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java" />
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/GameTowerOfHanoi.java" />
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/EmptyListException.java" />
         <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRec.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRecTest.java" />
       </list>
     </option>
   </component>
@@ -670,7 +697,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29537767" sideWeight="0.49785638" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29763246" sideWeight="0.5021436" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.49154454" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24169347" sideWeight="0.49154454" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63923335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.50845546" order="-1" side_tool="true" content_ui="tabs" />
@@ -750,7 +777,7 @@
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1418#1427#0" expanded="true" />
+            <element signature="e#1368#1377#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,7 +831,7 @@
           <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1418#1427#0" expanded="true" />
+            <element signature="e#1368#1377#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -858,7 +885,7 @@
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1418#1427#0" expanded="true" />
+            <element signature="e#1368#1377#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -974,13 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0046838406">
-          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -989,20 +1009,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1418#1427#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.3325527">
           <caret line="1232" column="22" selection-start-line="1232" selection-start-column="22" selection-end-line="1232" selection-end-column="22" />
           <folding>
             <element signature="e#46394#46395#0" expanded="true" />
@@ -1013,47 +1022,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="297" column="27" selection-start-line="297" selection-start-column="27" selection-end-line="297" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setUp#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="method#tearDown#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="method#testSetList1#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="e#463#472#0" expanded="true" />
-            <element signature="e#534#543#0" expanded="true" />
-            <element signature="e#596#605#0" expanded="true" />
-            <element signature="method#testSetList2#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="e#1622#1631#0" expanded="true" />
-            <element signature="e#1693#1702#0" expanded="true" />
-            <element signature="e#1755#1764#0" expanded="true" />
-            <element signature="method#testIntersectionOfLists#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="e#2793#2802#0" expanded="true" />
-            <element signature="e#2859#2868#0" expanded="true" />
-            <element signature="e#2929#2938#0" expanded="true" />
-            <element signature="e#3001#3010#0" expanded="true" />
-            <element signature="e#3097#3106#0" expanded="true" />
-            <element signature="method#testUnionOfLists#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="e#4955#4964#0" expanded="true" />
-            <element signature="e#5021#5030#0" expanded="true" />
-            <element signature="e#5091#5100#0" expanded="true" />
-            <element signature="e#5163#5172#0" expanded="true" />
-            <element signature="e#5258#5267#0" expanded="true" />
-            <element signature="method#testIsSubset#0;class#ClassRecTest#0" expanded="false" />
-            <element signature="e#7392#7401#0" expanded="true" />
-            <element signature="e#7460#7469#0" expanded="true" />
-            <element signature="e#7531#7540#0" expanded="true" />
-            <element signature="e#7626#7635#0" expanded="true" />
-            <element signature="e#8766#8775#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.15925059">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
           <folding>
             <element signature="docComment;method#getList1#0;class#ClassRec#0" expanded="false" />
@@ -1086,9 +1057,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/ClassRecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="205" column="8" selection-start-line="205" selection-start-column="8" selection-end-line="209" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="method#tearDown#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="method#testSetList1#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="e#463#472#0" expanded="true" />
+            <element signature="e#534#543#0" expanded="true" />
+            <element signature="e#596#605#0" expanded="true" />
+            <element signature="method#testSetList2#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="e#1622#1631#0" expanded="true" />
+            <element signature="e#1693#1702#0" expanded="true" />
+            <element signature="e#1755#1764#0" expanded="true" />
+            <element signature="method#testIntersectionOfLists#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="e#2793#2802#0" expanded="true" />
+            <element signature="e#2859#2868#0" expanded="true" />
+            <element signature="e#2929#2938#0" expanded="true" />
+            <element signature="e#3001#3010#0" expanded="true" />
+            <element signature="e#3097#3106#0" expanded="true" />
+            <element signature="e#4955#4964#0" expanded="true" />
+            <element signature="e#5021#5030#0" expanded="true" />
+            <element signature="e#5091#5100#0" expanded="true" />
+            <element signature="e#5163#5172#0" expanded="true" />
+            <element signature="e#5258#5267#0" expanded="true" />
+            <element signature="method#testIsSubset#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="e#7392#7401#0" expanded="true" />
+            <element signature="e#7460#7469#0" expanded="true" />
+            <element signature="e#7531#7540#0" expanded="true" />
+            <element signature="e#7626#7635#0" expanded="true" />
+            <element signature="method#testHowManyContain#0;class#ClassRecTest#0" expanded="false" />
+            <element signature="e#8766#8775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="class#Node#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="docComment;method#size#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="method#size#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="docComment;method#size#1;class#LinkedListRec#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="method#toString#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="docComment;method#toString#1;class#LinkedListRec#0" expanded="false" />
+            <element signature="e#2073#2074#0" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
+            <element signature="docComment;method#replace#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="method#replace#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="docComment;method#replace#1;class#LinkedListRec#0" expanded="false" />
+            <element signature="docComment;method#add#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="method#add#0;class#LinkedListRec#0" expanded="false" />
+            <element signature="docComment;method#add#1;class#LinkedListRec#0" expanded="false" />
+            <element signature="method#add#1;class#LinkedListRec#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1368#1377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tr/edu/gtu/mustafa/akilli/cse222/hw05/LinkedListRecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.021077283">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#297#306#0" expanded="true" />
+            <element signature="e#382#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="-Dtest=LinkedListRecTest test" />
     <option value="-Dtest=ClassRecTest test" />
     <option value="-Dtest=SpecListTest test" />
   </component>

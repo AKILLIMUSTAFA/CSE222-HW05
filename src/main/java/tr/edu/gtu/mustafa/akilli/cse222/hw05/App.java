@@ -54,23 +54,22 @@ public class App
 
         System.out.println(classRec.isSubset());*/
 
-        List<Integer> linkedListRec = new LinkedList<Integer>();
-        ClassRec<Integer> classRec = new ClassRec<Integer>();
+        LinkedListRec<Integer> linkedListRec = new LinkedListRec<Integer>();
+        boolean result = true;
 
         /* Add Element linkedListRec */
-        linkedListRec.add(1);
-        linkedListRec.add(2);
+        linkedListRec.add(6);
         linkedListRec.add(3);
-        linkedListRec.add(44);
-        linkedListRec.add(0);
-        linkedListRec.add(1);
+        linkedListRec.add(7);
+        linkedListRec.add(8);
+        linkedListRec.add(6);
+        linkedListRec.add(2);
+        linkedListRec.add(6);
 
-        System.out.println("**********************************");
-        System.out.println(classRec.howManyContain(linkedListRec, 1));
-        System.out.println("**********************************");
-        System.out.println(classRec.howManyContain(linkedListRec, 2));
+        /* Remove 6 Element in linkedListRec */
+        linkedListRec.remove(6);
 
-        /* Control Point */
+        System.out.println(linkedListRec.toString());
 
     }
 }

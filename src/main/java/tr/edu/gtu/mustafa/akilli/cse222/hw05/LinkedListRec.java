@@ -159,7 +159,7 @@ public class LinkedListRec<E> {
      * @return true if the item is removed
      *         and false otherwise
      */
-    public boolean remove(Node < E > head, Node < E > pred, E outData){
+    private boolean remove(Node < E > head, Node < E > pred, E outData){
         if (head == null) // Base case --  empty list.
         {
             return false;
