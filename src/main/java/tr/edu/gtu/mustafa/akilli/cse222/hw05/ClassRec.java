@@ -35,7 +35,7 @@ public class ClassRec<E extends Comparable<E>>{
     /**
      * Sort newList1 and Set List1 given newList1
      *
-     * @param newList1
+     * @param newList1 for List1
      */
     public void setList1(List newList1) {this.list1 = sortList(newList1);}
 
@@ -47,14 +47,14 @@ public class ClassRec<E extends Comparable<E>>{
     /**
      * Get List2
      *
-     * @return
+     * @return list2
      */
     public List getList2() {return list2;}
 
     /**
      * Sort newList2 and Set List2 given newList2
      *
-     * @param newList2
+     * @param newList2 for List2
      */
     public void setList2(List newList2) {this.list2 = sortList(newList2);}
 
@@ -66,9 +66,9 @@ public class ClassRec<E extends Comparable<E>>{
     /**
      * Sorts and returns list
      *
-     * @param collection
+     * @param collection  for sort
      * @return increasing list
-     * @throws if List is Null then throw NullPointerException
+     * @throws NullPointerException if List is null
      */
     public List<E> sortList(Collection<? extends E> collection) throws NullPointerException{
 
@@ -230,6 +230,8 @@ public class ClassRec<E extends Comparable<E>>{
     /**
      * Recursive method for Union Of Lists
      *
+     * @param indexOfList1 index Of List1
+     * @param indexOfList2 index Of List2
      * @return union set as a list of list1 and list 2
      */
     private List<E> unionOfLists(int indexOfList1, int indexOfList2){
@@ -277,7 +279,7 @@ public class ClassRec<E extends Comparable<E>>{
     /**
      * Recursive method for is list2 subset of list1
      *
-     * @param secondListIndex
+     * @param secondListIndex Index of second List
      * @return true if list2 is subset of list1
      */
     private boolean isSubset(int secondListIndex){

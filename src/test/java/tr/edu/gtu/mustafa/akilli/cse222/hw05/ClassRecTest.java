@@ -6,7 +6,16 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Created by MustafaMonster on 29.03.2016.
+ * HW05_131044017_Mustafa_Akilli
+ *
+ * File:   ClassRecTest
+ *
+ * Description:
+ *
+ * Junit Tests for ClassRecTest
+ *
+ * @author Mustafa_Akilli
+ * @since Sunday 30 March 2016 by Mustafa_Akilli
  */
 public class ClassRecTest extends TestCase {
 

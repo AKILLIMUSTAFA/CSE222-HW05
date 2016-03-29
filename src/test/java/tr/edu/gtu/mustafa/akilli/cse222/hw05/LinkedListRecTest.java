@@ -3,7 +3,16 @@ package tr.edu.gtu.mustafa.akilli.cse222.hw05;
 import junit.framework.TestCase;
 
 /**
- * Created by MustafaMonster on 29.03.2016.
+ * HW05_131044017_Mustafa_Akilli
+ *
+ * File:   LinkedListRecTest
+ *
+ * Description:
+ *
+ * Junit Tests for LinkedListRec
+ *
+ * @author Mustafa_Akilli
+ * @since Sunday 30 March 2016 by Mustafa_Akilli
  */
 public class LinkedListRecTest extends TestCase {
 

@@ -84,7 +84,7 @@ public class LinkedListRec<E> {
 
     /**
      * Replaces all occurrences of oldObj with newObj.
-     * @post Each occurrence of oldObj has been replaced by newObj.
+     *
      * @param head The head of the current list
      * @param oldObj The object being removed
      * @param newObj The object being inserted
@@ -99,8 +99,8 @@ public class LinkedListRec<E> {
     }
 
     /**
-     Wrapper method for replacing oldObj with newObj.
-     * @post Each occurrence of oldObj has been replaced by newObj.
+     * Wrapper method for replacing oldObj with newObj.
+     *
      * @param oldObj The object being removed
      * @param newObj The object being inserted
      */
@@ -136,7 +136,7 @@ public class LinkedListRec<E> {
 
     /**
      * Wrapper method for removing a node (in LinkedListRec).
-     * @post The first occurrence of outData is removed.
+     *
      * @param outData The data to be removed
      * @return true if the item is removed,
      *         and false otherwise
