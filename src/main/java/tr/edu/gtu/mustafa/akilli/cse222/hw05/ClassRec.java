@@ -247,14 +247,16 @@ public class ClassRec<E extends Comparable<E>>{
             /* Go until end of the list 1 */
             if(indexOfList1 >= 0){
                 unionList = unionOfLists(indexOfList1-1,indexOfList2); /* Recursive call */
-                unionList.add((E) getList1().get(indexOfList1));/* Add element */
+                if(!unionList.contains((E) getList1().get(indexOfList1)))
+                    unionList.add((E) getList1().get(indexOfList1));/* Add element */
                 return unionList; /* returns unionList */
             }
 
              /* Go until end of the list 2 */
             else if (indexOfList1 < 0){
                 unionList = unionOfLists(indexOfList1,indexOfList2-1); /* Recursive call */
-                unionList.add((E) getList2().get(indexOfList2)); /* Add element */
+                if(!unionList.contains((E) getList2().get(indexOfList2)))
+                    unionList.add((E) getList2().get(indexOfList2)); /* Add element */
                 return unionList;/* returns unionList */
             }
 
